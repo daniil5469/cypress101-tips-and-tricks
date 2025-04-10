@@ -263,7 +263,7 @@ cy.request({
 44. Auto-generate GraphQL commands via introspection. Write custom commands for GraphQL queries and (or) mutations and then use that as a templates for GraphQL testing
 45. Manage tokens for user sessions (e.g., login via API)
 46. Test real-time events using WebSockets (e.g., SignalR)
-47. Validate schemas with Cypress plugin `AJV-SCHEMA-VALIDATOR` or `zod`
+47. Validate schemas with Cypress plugin [cypress-ajv-schema-validator](https://github.com/sclavijosuero/cypress-ajv-schema-validator) or `zod`
 48. Chain `cy.request()` calls for API workflows
 49. Assert cookies, headers, and status codes
 50. Prepare data or cleanup using API
